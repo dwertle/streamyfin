@@ -28,6 +28,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Button } from "@/components/Button";
 import { Text } from "@/components/common/Text";
 import { InfiniteScrollingCollectionList } from "@/components/home/InfiniteScrollingCollectionList";
+import { JellyseerrHomeDiscover } from "@/components/home/JellyseerrHomeDiscover";
 import { StreamystatsPromotedWatchlists } from "@/components/home/StreamystatsPromotedWatchlists";
 import { StreamystatsRecommendations } from "@/components/home/StreamystatsRecommendations";
 import { Loader } from "@/components/Loader";
@@ -693,6 +694,7 @@ const HomeMobile = () => {
           }
           return null;
         })}
+        <JellyseerrHomeDiscover />
       </View>
     </ScrollView>
   );

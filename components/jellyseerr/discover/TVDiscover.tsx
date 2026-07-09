@@ -7,6 +7,7 @@ import { TVDiscoverSlide } from "./TVDiscoverSlide";
 
 interface TVDiscoverProps {
   sliders?: DiscoverSlider[];
+  preferFirstItemFocus?: boolean;
 }
 
 // Only show movie/TV slides on TV - skip genres, networks, studios for now
@@ -18,7 +19,10 @@ const SUPPORTED_SLIDE_TYPES = [
   DiscoverSliderType.UPCOMING_TV,
 ];
 
-export const TVDiscover: React.FC<TVDiscoverProps> = ({ sliders }) => {
+export const TVDiscover: React.FC<TVDiscoverProps> = ({
+  sliders,
+  preferFirstItemFocus = true,
+}) => {
   const sortedSliders = useMemo(
     () =>
       sortBy(
@@ -39,7 +43,7 @@ export const TVDiscover: React.FC<TVDiscoverProps> = ({ sliders }) => {
         <TVDiscoverSlide
           key={slide.id}
           slide={slide}
-          isFirstSlide={index === 0}
+          isFirstSlide={preferFirstItemFocus && index === 0}
         />
       ))}
     </View>

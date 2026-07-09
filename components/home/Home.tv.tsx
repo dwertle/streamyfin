@@ -28,6 +28,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Button } from "@/components/Button";
 import { Text } from "@/components/common/Text";
 import { InfiniteScrollingCollectionList } from "@/components/home/InfiniteScrollingCollectionList.tv";
+import { JellyseerrHomeDiscover } from "@/components/home/JellyseerrHomeDiscover";
 import { StreamystatsPromotedWatchlists } from "@/components/home/StreamystatsPromotedWatchlists.tv";
 import { StreamystatsRecommendations } from "@/components/home/StreamystatsRecommendations.tv";
 import { TVHeroCarousel } from "@/components/home/TVHeroCarousel";
@@ -830,6 +831,7 @@ export const Home = () => {
             }
             return null;
           })}
+          <JellyseerrHomeDiscover />
         </View>
       </ScrollView>
     </View>
