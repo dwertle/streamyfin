@@ -790,6 +790,7 @@
     "next": "Next",
     "previous": "Previous",
     "coming_soon": "Coming Soon",
+    "all": "All",
     "on_now": "On Now",
     "shows": "Shows",
     "movies": "Movies",
@@ -877,7 +878,8 @@
     "library": "Library",
     "custom_links": "Custom Links",
     "favorites": "Favorites",
-    "settings": "Settings"
+    "settings": "Settings",
+    "live": "Live"
   },
   "music": {
     "title": "Music",

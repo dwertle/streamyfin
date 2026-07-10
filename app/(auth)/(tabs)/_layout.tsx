@@ -85,6 +85,17 @@ export default function TabLayout() {
           }}
         />
         <NativeTabs.Screen
+          name='(live)'
+          options={{
+            title: t("tabs.live"),
+            tabBarIcon:
+              Platform.OS === "android"
+                ? // assets/icons ships no TV glyph; reuse the list icon.
+                  (_e) => require("@/assets/icons/list.png")
+                : (_e) => ({ sfSymbol: "tv.fill" }),
+          }}
+        />
+        <NativeTabs.Screen
           name='(favorites)'
           options={{
             title: t("tabs.favorites"),
