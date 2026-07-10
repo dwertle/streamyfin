@@ -154,12 +154,8 @@
     "extra": {
       "router": {
         "origin": false
-      },
-      "eas": {
-        "projectId": "e79219d1-797f-4fbe-9fa1-cfd360690a68"
       }
     },
-    "owner": "streamyfin",
     "runtimeVersion": {
       "policy": "appVersion"
     },
