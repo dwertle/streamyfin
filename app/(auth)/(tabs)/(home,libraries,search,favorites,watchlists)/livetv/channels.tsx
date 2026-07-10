@@ -42,6 +42,7 @@ export default function LiveTvChannelsPage() {
                   width: 60,
                   borderRadius: 8,
                 }}
+                contentFit='contain'
                 item={item}
               />
             </View>
