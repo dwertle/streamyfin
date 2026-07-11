@@ -790,7 +790,6 @@
     "next": "Nästa",
     "previous": "Föregående",
     "coming_soon": "Kommer Snart",
-    "all": "Alla",
     "on_now": "Visas Nu",
     "shows": "Serier",
     "movies": "Filmer",
@@ -878,8 +877,7 @@
     "library": "Bibliotek",
     "custom_links": "Egna länkar",
     "favorites": "Favoriter",
-    "settings": "Inställningar",
-    "live": "Live"
+    "settings": "Inställningar"
   },
   "music": {
     "title": "Musik",
