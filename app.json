@@ -33,7 +33,7 @@
       },
       "bundleIdentifier": "me.kevbot.streamyfin",
       "icon": "./assets/images/icon-ios-liquid-glass.icon",
-      "appleTeamId": "MWD5K362T8"
+      "appleTeamId": "495JUC2CK4"
     },
     "android": {
       "adaptiveIcon": {
@@ -154,6 +154,9 @@
     "extra": {
       "router": {
         "origin": false
+      },
+      "eas": {
+        "projectId": "beafa427-b088-4ec9-9c1e-4bad4db6965f"
       }
     },
     "runtimeVersion": {
@@ -161,6 +164,7 @@
     },
     "updates": {
       "url": "https://u.expo.dev/e79219d1-797f-4fbe-9fa1-cfd360690a68"
-    }
+    },
+    "owner": "dwertle"
   }
 }
